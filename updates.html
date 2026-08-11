@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Updates & Insights &mdash; fzkaipeng.com</title>
+    <meta name="description" content="Releases, technical notes, design retrospectives, and field reports from the fzkaipeng.com studio in Sheffield, UK." />
+    <meta name="keywords" content="fzkaipeng updates, app releases, changelog, technical notes, design insights, indie studio news" />
+    <meta name="author" content="fzkaipeng.com" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#05070d" />
+    <link rel="canonical" href="https://fzkaipeng.com/updates.html" />
+    <link rel="icon" type="image/svg+xml" href="images/icon-favicon.svg" />
+    <link rel="apple-touch-icon" href="images/icon-favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="fzkaipeng.com" />
+    <meta property="og:title" content="Updates & Insights &mdash; fzkaipeng.com" />
+    <meta property="og:description" content="Releases, technical notes, design retrospectives, and field reports from the fzkaipeng.com studio in Sheffield, UK." />
+    <meta property="og:url" content="https://fzkaipeng.com/updates.html" />
+    <meta property="og:image" content="https://fzkaipeng.com/images/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_GB" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Updates & Insights &mdash; fzkaipeng.com" />
+    <meta name="twitter:description" content="Releases, technical notes, design retrospectives, and field reports from the fzkaipeng.com studio in Sheffield, UK." />
+    <meta name="twitter:image" content="https://fzkaipeng.com/images/og-cover.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" />
+    <link rel="stylesheet" href="css/global.css" />
+</head>
+<body>
+<header class="nav" role="banner">
+    <a class="nav-brand" href="index.html" aria-label="fzkaipeng.com home">
+        <img src="images/logo.svg" alt="" width="28" height="28" />
+        <span>fzkaipeng<span style="opacity:.55">.com</span></span>
+        <span class="dot" aria-hidden="true"></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="advantages.html">Advantages</a>
+        <a href="updates.html" class="active">Updates</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <button class="nav-cta" id="themeToggle" aria-label="Toggle theme" style="margin-left:6px;"></button>
+</header>
+<section class="container" style="padding-top:140px;">
+    <div class="section-head reveal">
+        <span class="kicker">/updates</span>
+        <h2>Field notes <span class="grad">from the studio.</span></h2>
+        <p>Releases, technical deep-dives, design retrospectives, and the occasional philosophical aside &mdash;written by the people doing the work.</p>
+    </div>
+    <div class="grid" style="grid-template-columns: 1.4fr 1fr; gap: 40px;">
+        <div class="timeline">
+            <article class="tl-item reveal"><span class="date">2025-08 路 RELEASE</span><h4>Multi-track Audio Editor 3.2 &mdash;Lossless Export</h4><p>Sample-accurate 32-bit float export, new tape saturation model, refreshed inspector. Available on iOS and macOS.</p></article>
+            <article class="tl-item reveal"><span class="date">2025-07 路 INSIGHT</span><h4>Designing for quiet: motion that informs, not performs</h4><p>Notes from our design lead on how we approach motion grammar &mdash;why we stopped using spring physics in favour of damped sinusoidal easing.</p></article>
+            <article class="tl-item reveal"><span class="date">2025-06 路 RELEASE</span><h4>Pantry 2.0 &mdash;Pantry Sync (E2EE)</h4><p>Optional end-to-end encrypted multi-device sync. Keys are user-held, servers see only ciphertext, no account required.</p></article>
+            <article class="tl-item reveal"><span class="date">2025-05 路 TECHNICAL</span><h4>Why we chose local-first over cloud-native</h4><p>A retrospective on the architectural decisions behind our product matrix &mdash;and why local storage made our apps faster, more private, and more resilient.</p></article>
+            <article class="tl-item reveal"><span class="date">2025-04 路 RELEASE</span><h4>Trail 1.5 &mdash;Offline elevation profiles</h4><p>Trail now ships with pre-cached terrain tiles and elevation-aware route planning. No internet required once the area is downloaded.</p></article>
+            <article class="tl-item reveal"><span class="date">2025-03 路 INSIGHT</span><h4>The case for boring UI</h4><p>When we deliberately made Atlas less exciting. On the value of restraint, the psychology of novelty, and why productivity apps should resist being delightful.</p></article>
+            <article class="tl-item reveal"><span class="date">2025-02 路 RELEASE</span><h4>Vault 1.0 &mdash;Credential expiry radar</h4><p>Our first major release of the year. Local-only credential tracking with smart reminders and OCR-assisted document capture.</p></article>
+            <article class="tl-item reveal"><span class="date">2025-01 路 STUDIO</span><h4>We're hiring a Senior Audio Engineer</h4><p>Remote-friendly role based out of our Sheffield studio. Five+ years of native audio DSP, comfort with CoreAudio or AAudio, and a portfolio of shipped instruments or effects.</p></article>
+        </div>        <aside class="reveal">
+            <div class="card" style="margin-bottom:18px;">
+                <h3>Subscribe</h3>
+                <p>Get our field notes in your inbox. One thoughtful email per month, never more.</p>
+                <form style="display:flex;gap:8px;margin-top:14px;" onsubmit="event.preventDefault(); this.querySelector('input').value=''; alert('Thanks &mdash;subscription flow ships in v2.');">
+                    <input type="email" required placeholder="you@studio.com" style="flex:1;background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:10px;color:var(--text);font-family:var(--sans);" />
+                    <button class="btn btn-primary" style="padding:10px 14px;">Subscribe</button>
+                </form>
+            </div>
+            <div class="card" style="margin-bottom:18px;">
+                <h3>Categories</h3>
+                <ul style="list-style:none;padding:0;margin:14px 0 0;color:var(--text-dim);">
+                    <li style="padding:8px 0;border-bottom:1px dashed var(--border);">鈻?Releases <span style="float:right;color:var(--text-faint);font-family:var(--mono);">42</span></li>
+                    <li style="padding:8px 0;border-bottom:1px dashed var(--border);">鈻?Technical <span style="float:right;color:var(--text-faint);font-family:var(--mono);">17</span></li>
+                    <li style="padding:8px 0;border-bottom:1px dashed var(--border);">鈻?Design <span style="float:right;color:var(--text-faint);font-family:var(--mono);">12</span></li>
+                    <li style="padding:8px 0;border-bottom:1px dashed var(--border);">鈻?Studio <span style="float:right;color:var(--text-faint);font-family:var(--mono);">9</span></li>
+                    <li style="padding:8px 0;">鈻?Privacy <span style="float:right;color:var(--text-faint);font-family:var(--mono);">23</span></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Press Kit</h3>
+                <p>Logos, founder photos, and product screenshots available for editorial use.</p>
+                <a href="contact.html" class="btn btn-ghost" style="margin-top:12px;">Request Access</a>
+            </div>
+        </aside>
+    </div>
+</section>
+
+<section class="container">
+    <div class="cta-band reveal">
+        <h2 style="margin-bottom:14px;">Stay <span class="grad">in the loop.</span></h2>
+        <p style="max-width:60ch;margin:0 auto 26px;">For partnership inquiries or press requests, reach out directly.</p>
+        <a href="contact.html" class="btn btn-primary">Contact the Studio
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+    </div>
+</section><footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a class="nav-brand" href="index.html" style="margin-bottom:14px;">
+                    <img src="images/logo.svg" alt="" width="28" height="28" />
+                    <span>fzkaipeng<span style="opacity:.55">.com</span></span>
+                </a>
+                <p>An R&amp;D studio in Sheffield building privacy-first, local-native applications with procedural craft and minimalist soul.</p>
+                <span class="badge">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2c2.5 3 4 6.5 4 10s-1.5 7-4 10c-2.5-3-4-6.5-4-10s1.5-7 4-10z"/></svg>
+                    Sheffield &middot; United Kingdom
+                </span>
+            </div>
+            <div><h6>Navigate</h6><ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="advantages.html">Advantages</a></li>
+                <li><a href="updates.html">Updates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul></div>
+            <div><h6>Legal</h6><ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="privacy.html#cookies">Cookie Notice</a></li>
+                <li><a href="privacy.html#children">Children's Privacy</a></li>
+                <li><a href="terms.html#DMCA">DMCA</a></li>
+            </ul></div>
+            <div><h6>Contact</h6><ul>
+                <li><a href="mailto:support@fzkaipeng.com">support@fzkaipeng.com</a></li>
+                <li><a href="mailto:contact@fzkaipeng.com">contact@fzkaipeng.com</a></li>
+                <li>Sheffield Science Park<br/>United Kingdom</li>
+            </ul></div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; <span id="year">2025</span> fzkaipeng.com &mdash; All rights reserved.</span>
+            <span>Built with care &middot; No tracking &middot; Local-first</span>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

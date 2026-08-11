@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5cc8ff"/><stop offset="1" stop-color="#7d6cff"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#58e1c4"/><stop offset="1" stop-color="#5cc8ff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="transparent"/>
+  <g opacity=".9">
+    <path d="M40 460 Q160 320 260 380 T480 280 T760 200" stroke="url(#g1)" stroke-width="2" fill="none"/>
+    <path d="M40 480 Q200 360 320 420 T560 320 T760 260" stroke="url(#g2)" stroke-width="2" fill="none" opacity=".7"/>
+  </g>
+  <g fill="#5cc8ff">
+    <circle cx="160" cy="380" r="4"/><circle cx="320" cy="360" r="4"/><circle cx="480" cy="300" r="4"/><circle cx="640" cy="240" r="4"/>
+  </g>
+  <g fill="#7d6cff" opacity=".6">
+    <circle cx="120" cy="440" r="2"/><circle cx="240" cy="420" r="2"/><circle cx="400" cy="380" r="2"/><circle cx="560" cy="320" r="2"/>
+  </g>
+  <g stroke="#9ad8ff" stroke-width=".5" opacity=".25">
+    <line x1="0" y1="120" x2="800" y2="120"/><line x1="0" y1="240" x2="800" y2="240"/><line x1="0" y1="360" x2="800" y2="360"/><line x1="0" y1="480" x2="800" y2="480"/>
+  </g>
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#9ad8ff" opacity=".5">
+    <text x="40" y="100">amplitude(ƒ) = Σ sin(n·x)/n</text>
+    <text x="40" y="540">seed: 0xA17F · rate: 48kHz · ch: 24</text>
+  </g>
+  <g stroke="url(#g1)" stroke-width="1.5" fill="none" opacity=".9">
+    <rect x="560" y="380" width="200" height="140" rx="10"/>
+    <line x1="560" y1="420" x2="760" y2="420"/>
+    <circle cx="575" cy="400" r="3" fill="#ff6b8b"/><circle cx="590" cy="400" r="3" fill="#ffb86b"/><circle cx="605" cy="400" r="3" fill="#58e1c4"/>
+  </g>
+  <g stroke="#cbe2ff" stroke-width="1" fill="none" opacity=".9">
+    <path d="M580 470 L600 450 L620 480 L640 460 L660 470 L680 450 L700 480 L720 460 L740 470"/>
+  </g>
+</svg>

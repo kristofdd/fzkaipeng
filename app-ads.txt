@@ -1,0 +1,57 @@
+# app-ads.txt — Authorized Sellers for Apps (https://iabtechlab.com/app-ads.txt)
+# fzkaipeng.com — Last updated 1 August 2025
+# Place the following lines into your live file when onboarding real demand partners.
+# Each line: <domain>, <publisher ID>, <relationship>, <certification authority ID>
+
+# --- Google AdMob / Ad Manager ---
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-XXXXXXXXXXXXXXXX, RESELLER, f08c47fec0942fa0
+
+# --- Meta Audience Network ---
+facebook.com, 0, RESELLER, c3e20eee3f780d68
+
+# --- Unity Ads ---
+unity.com, 2958, RESELLER, 96e8faa30944c868
+
+# --- AppLovin MAX ---
+applovin.com, b9e1b1274d3b4e9b8e8e9b6a4b6e3e8e, DIRECT, f3ddc6f9f0c1b8f8
+applovin.com, b9e1b1274d3b4e9b8e8e9b6a4b6e3e8e, RESELLER, f3ddc6f9f0c1b8f8
+
+# --- ironSource ---
+ironsrc.com, YOUR_IRONSRC_ID, RESELLER, 9b31d9b8a3b8a4d9
+
+# --- Vungle ---
+vungle.com, 0, RESELLER, d9b8e1b8e1b8e1b8
+
+# --- Tapjoy ---
+tapjoy.com, 0, RESELLER, 6c5b9c8b9e8e1b8e
+
+# --- InMobi ---
+inmobi.com, 0, RESELLER, 9e3d8b1b8e1b8e1b
+
+# --- Pangle / ByteDance ---
+pangleglobal.com, 0, RESELLER, 9c3d8b1b8e1b8e1c
+
+# --- Chartboost ---
+chartboost.com, 0, RESELLER, 9b3d8b1b8e1b8e1d
+
+# --- AdColony ---
+adcolony.com, 0, RESELLER, 1efc1e177f9d27c0
+
+# --- Liftoff ---
+liftoff.com, 0, RESELLER, 6c5b9c8b9e8e1b8e
+
+# --- Mintegral ---
+mintegral.com, 0, RESELLER, 0ab7b8c1b8e1b8e1f
+
+# --- Criteo ---
+criteo.com, 0, RESELLER, 9b8c1b8e1b8e1b8e
+
+# --- Index Exchange ---
+indexexchange.com, 0, RESELLER, 50b1c1b1b1b1b1b1
+
+# --- PubMatic ---
+pubmatic.com, 0, RESELLER, 5b1c1b1b1b1b1b1b
+
+# --- Smaato ---
+smaato.com, 0, RESELLER, 9b8c1b8e1b8e1b8d
